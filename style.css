@@ -67,6 +67,8 @@ button {
     font-size: 16px;
     border: 1px solid #1D4ED8;
     border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 .hero-class {
@@ -345,22 +347,96 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .fullform {
     margin: 40px 12% 0;
     width: 65%;
-    background-color: #9e2121;
+    /* background-color: #9e2121; */
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    /* gap: 16px; */
 }
 
 .fullform input,
 .fullform textarea {
+    outline: none;
     width: 100%;
+    margin-bottom: 16px;
+    padding: 16px 16px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
 }
 
 .fullform .names {
     display: flex;
+    gap: 16px;
+}
+
+.fullform button {
+    font-size: 18px;
+}
+
+footer {
+    padding: 32px;
+    background-color: #F3F4F6;
+
+}
+
+.footer {
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+.footer li {
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer .fc {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin-top: 8px;
+}
+
+.footer .mail {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.mail input {
+    flex: 2;
+    border: 1px solid #D1D5DB;
+    outline: none;
+    padding: 16px;
+    border-radius: 6px 0px 0 6px;
+}
+
+.mail button {
+    flex: 1;
+    border-radius: 0 6px 6px 0;
+}
+
+.copyright {
+    margin-top: 32px;
+    color: #4B5563;
+    text-align: center;
 }
