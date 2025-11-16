@@ -353,10 +353,8 @@ button {
 .fullform {
     margin: 40px 12% 0;
     width: 65%;
-    /* background-color: #9e2121; */
     display: flex;
     flex-direction: column;
-    /* gap: 16px; */
 }
 
 .fullform input,
