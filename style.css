@@ -11,6 +11,8 @@
 a {
     text-decoration: none;
     color: #1F2937;
+    transition: .3s;
+    cursor: pointer;
 }
 
 p {
@@ -69,6 +71,7 @@ button {
     border-radius: 6px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-class {
@@ -168,6 +171,7 @@ button {
 .about-right .exp {
     padding: 20px;
     position: absolute;
+    border-radius: 20px 20px 0 20px;
     top: 0;
     left: 0;
     transform: translate(-50%, -50%);
@@ -407,6 +411,15 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer-middle ul {
+    display: flex;
+}
+
+.footer-middle li {
+    padding: 0 8px;
+    font-size: 20px;
 }
 
 .footer p {
